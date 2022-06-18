@@ -5,7 +5,7 @@ from typing import List
 
 #### Declaring variables for setup functions
 PROJECT_NAME = "housing predictor"
-VERSION = "0.0.9"
+VERSION = "0.0.10"
 AUTHOR = "Rachinder Singh" 
 DESCRIPTION = "This is the first  FSDS November Batch Project"
 PACKAGES = ['housing']
@@ -18,11 +18,15 @@ def get_requirements_list() -> List[str]:# -> List[str] means we will return a l
     returns: This function is going to return a list which contains name of libraries
     mentionaed in requirements.txt
     """
-    
+    """with open(REQUIREMENT_FILE_NAME) as requirement_file:
+        test = requirement_file.readlines()
+        test.pop()
+        test1 = [x.replace("\n","") for x in test]
+        return test1"""
     
     with open(REQUIREMENT_FILE_NAME) as requirement_file:
-        
         return requirement_file.readlines().remove("-e .")
+    
         
 
 
