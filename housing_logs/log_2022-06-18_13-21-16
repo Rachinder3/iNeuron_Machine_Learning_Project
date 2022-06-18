@@ -1,0 +1,9 @@
+[2022-06-18 13:21:16,780] werkzeug - WARNING -  * Debugger is active!
+[2022-06-18 13:21:16,789] werkzeug - INFO -  * Debugger PIN: 108-137-037
+[2022-06-18 13:21:18,846] we[2022-06-18 13:22:31,872] werkzeug - INFO -  * Restarting with stat
+[2022-06-18 13:22:33,421] werkzeug - INFO -  * Restarting with stat
+0.0.1 - - [18/Jun/2022 13:21:18] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2022-06-18 13:21:18,944] werkzeug - INFO - 127.0.0.1 - - [18/Jun/2022 13:21:18] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2022-06-18 13:21:18,999] werkzeug - INFO - 127.0.0.1 - - [18/Jun/2022 13:21:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2022-06-18 13:21:19,025] werkzeug - INFO - 127.0.0.1 - - [18/Jun/2022 13:21:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2022-06-18 13:22:31,831] werkzeug - INFO -  * Detected change in 'c:\\users\\lenovo\\desktop\\rachinder\\inueuron\\inueuron\\fsds\\codes\\day 47\\machine_learning_project\\housing\\exception\\__init__.py', reloading
